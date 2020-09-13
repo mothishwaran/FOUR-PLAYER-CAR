@@ -130,7 +130,7 @@ noStroke();
      
        if(particle.body.position.x>301 && particle.body.position<600)
        {
-         score=score;
+         score=score+100;
          particle=null;
        if(turn >=5)  gameState="End";
        }
